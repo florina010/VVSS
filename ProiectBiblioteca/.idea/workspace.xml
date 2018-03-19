@@ -34,33 +34,33 @@
               <ID>JAVA</ID>
               <OriginalElement>biblioteca.begin.Start</OriginalElement>
               <nodes>
-                <node x="208.87896825396837" y="0.0">biblioteca.model.Carte</node>
+                <node x="208.87896825396834" y="0.0">biblioteca.model.Carte</node>
                 <node x="841.25" y="632.5">biblioteca.repository.repoMock.CartiRepoMock</node>
                 <node x="102.80753968253975" y="621.0">biblioteca.control.BibliotecaCtrl</node>
                 <node x="119.75" y="431.5">biblioteca.util.Validator</node>
                 <node x="348.75" y="409.0">biblioteca.repository.repoInterfaces.CartiRepoInterface</node>
-                <node x="255.25000000000006" y="1158.0">biblioteca.begin.Start</node>
+                <node x="255.25000000000003" y="1158.0">biblioteca.begin.Start</node>
                 <node x="513.25" y="621.0">biblioteca.repository.repo.CartiRepo</node>
                 <node x="0.0" y="879.0">biblioteca.view.Consola</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoMock.CartiRepoMock">
-                  <point x="70.41666666666657" y="-25.5" />
+                  <point x="70.41666666666663" y="-25.5" />
                   <point x="410.16666666666663" y="1138.0" />
                   <point x="995.25" y="1138.0" />
                   <point x="0.0" y="92.5" />
                 </edge>
                 <edge source="biblioteca.view.Consola" target="biblioteca.model.Carte">
-                  <point x="-32.75" y="-114.5" />
-                  <point x="98.25" y="854.0" />
-                  <point x="79.43253968253975" y="854.0" />
-                  <point x="79.43253968253975" y="369.0" />
-                  <point x="268.12896825396837" y="369.0" />
-                  <point x="-98.75" y="169.5" />
+                  <point x="-98.25" y="-114.5" />
+                  <point x="32.75" y="854.0" />
+                  <point x="68.43253968253975" y="854.0" />
+                  <point x="68.43253968253975" y="359.0" />
+                  <point x="228.62896825396834" y="359.0" />
+                  <point x="-138.25" y="169.5" />
                 </edge>
                 <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="42.24999999999994" y="-25.5" />
+                  <point x="42.25" y="-25.5" />
                   <point x="382.0" y="1128.0" />
                   <point x="502.75" y="1128.0" />
                   <point x="0.0" y="81.0" />
@@ -68,13 +68,13 @@
                 <edge source="biblioteca.util.Validator" target="biblioteca.model.Carte">
                   <point x="0.0" y="-58.5" />
                   <point x="224.25" y="389.0" />
-                  <point x="347.12896825396837" y="389.0" />
+                  <point x="347.1289682539683" y="389.0" />
                   <point x="-19.75" y="169.5" />
                 </edge>
                 <edge source="biblioteca.repository.repoInterfaces.CartiRepoInterface" target="biblioteca.model.Carte">
                   <point x="0.0" y="-81.0" />
                   <point x="502.75" y="389.0" />
-                  <point x="386.62896825396837" y="389.0" />
+                  <point x="386.6289682539683" y="389.0" />
                   <point x="19.75" y="169.5" />
                 </edge>
                 <edge source="biblioteca.view.Consola" target="biblioteca.control.BibliotecaCtrl">
@@ -84,18 +84,18 @@
                   <point x="-38.5" y="104.0" />
                 </edge>
                 <edge source="biblioteca.begin.Start" target="biblioteca.view.Consola">
-                  <point x="-42.25000000000006" y="-25.5" />
+                  <point x="-42.25" y="-25.5" />
                   <point x="297.5" y="1128.0" />
                   <point x="196.5" y="1128.0" />
                   <point x="65.5" y="114.5" />
                 </edge>
                 <edge source="biblioteca.repository.repoMock.CartiRepoMock" target="biblioteca.model.Carte">
-                  <point x="0.0" y="-92.5" />
-                  <point x="995.25" y="601.0" />
-                  <point x="1027.9107142857142" y="601.0" />
-                  <point x="1027.9107142857142" y="369.0" />
-                  <point x="465.62896825396837" y="369.0" />
-                  <point x="98.75" y="169.5" />
+                  <point x="102.66666666666674" y="-92.5" />
+                  <point x="1097.9166666666667" y="601.0" />
+                  <point x="1038.9107142857142" y="601.0" />
+                  <point x="1038.9107142857142" y="359.0" />
+                  <point x="505.1289682539683" y="359.0" />
+                  <point x="138.25" y="169.5" />
                 </edge>
                 <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.util.Validator">
                   <point x="-38.5" y="-104.0" />
@@ -104,23 +104,23 @@
                   <point x="0.0" y="58.5" />
                 </edge>
                 <edge source="biblioteca.begin.Start" target="biblioteca.control.BibliotecaCtrl">
-                  <point x="14.083333333333258" y="-25.5" />
-                  <point x="353.8333333333333" y="1138.0" />
-                  <point x="345.25" y="1138.0" />
-                  <point x="345.25" y="854.0" />
-                  <point x="372.30753968253975" y="854.0" />
-                  <point x="115.5" y="104.0" />
+                  <point x="-14.083333333333371" y="-25.5" />
+                  <point x="325.66666666666663" y="1138.0" />
+                  <point x="314.91071428571433" y="1138.0" />
+                  <point x="314.91071428571433" y="854.0" />
+                  <point x="295.30753968253975" y="854.0" />
+                  <point x="38.5" y="104.0" />
                 </edge>
                 <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
                   <point x="38.5" y="-104.0" />
                   <point x="295.30753968253975" y="591.0" />
-                  <point x="379.54999999999995" y="591.0" />
+                  <point x="379.55" y="591.0" />
                   <point x="-123.19999999999999" y="81.0" />
                 </edge>
                 <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.model.Carte">
-                  <point x="77.00000000000003" y="-104.0" />
+                  <point x="77.0" y="-104.0" />
                   <point x="744.25" y="379.0" />
-                  <point x="426.12896825396837" y="379.0" />
+                  <point x="426.1289682539683" y="379.0" />
                   <point x="59.25" y="169.5" />
                 </edge>
                 <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
@@ -140,7 +140,7 @@
                   <point x="141.30753968253975" y="601.0" />
                   <point x="109.25" y="601.0" />
                   <point x="109.25" y="379.0" />
-                  <point x="307.62896825396837" y="379.0" />
+                  <point x="307.6289682539683" y="379.0" />
                   <point x="-59.25" y="169.5" />
                 </edge>
               </edges>
@@ -672,12 +672,20 @@
       <workItem from="1520962889601" duration="3437000" />
       <workItem from="1521446306077" duration="985000" />
       <workItem from="1521447928236" duration="11000" />
-      <workItem from="1521448209076" duration="1422000" />
+      <workItem from="1521448209076" duration="1444000" />
     </task>
+    <task id="LOCAL-00001" summary="diagram">
+      <created>1521449660052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521449660052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19394000" />
+    <option name="totallyTimeSpent" value="19416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,6 +735,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="diagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1399,33 +1411,33 @@
           <ID>JAVA</ID>
           <OriginalElement>biblioteca.begin.Start</OriginalElement>
           <nodes>
-            <node x="208.87896825396837" y="0.0">biblioteca.model.Carte</node>
+            <node x="208.87896825396834" y="0.0">biblioteca.model.Carte</node>
             <node x="841.25" y="632.5">biblioteca.repository.repoMock.CartiRepoMock</node>
             <node x="102.80753968253975" y="621.0">biblioteca.control.BibliotecaCtrl</node>
             <node x="119.75" y="431.5">biblioteca.util.Validator</node>
             <node x="348.75" y="409.0">biblioteca.repository.repoInterfaces.CartiRepoInterface</node>
-            <node x="255.25000000000006" y="1158.0">biblioteca.begin.Start</node>
+            <node x="255.25000000000003" y="1158.0">biblioteca.begin.Start</node>
             <node x="513.25" y="621.0">biblioteca.repository.repo.CartiRepo</node>
             <node x="0.0" y="879.0">biblioteca.view.Consola</node>
           </nodes>
           <notes />
           <edges>
             <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoMock.CartiRepoMock">
-              <point x="70.41666666666657" y="-25.5" />
+              <point x="70.41666666666663" y="-25.5" />
               <point x="410.16666666666663" y="1138.0" />
               <point x="995.25" y="1138.0" />
               <point x="0.0" y="92.5" />
             </edge>
             <edge source="biblioteca.view.Consola" target="biblioteca.model.Carte">
-              <point x="-32.75" y="-114.5" />
-              <point x="98.25" y="854.0" />
-              <point x="79.43253968253975" y="854.0" />
-              <point x="79.43253968253975" y="369.0" />
-              <point x="268.12896825396837" y="369.0" />
-              <point x="-98.75" y="169.5" />
+              <point x="-98.25" y="-114.5" />
+              <point x="32.75" y="854.0" />
+              <point x="68.43253968253975" y="854.0" />
+              <point x="68.43253968253975" y="359.0" />
+              <point x="228.62896825396834" y="359.0" />
+              <point x="-138.25" y="169.5" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-              <point x="42.24999999999994" y="-25.5" />
+              <point x="42.25" y="-25.5" />
               <point x="382.0" y="1128.0" />
               <point x="502.75" y="1128.0" />
               <point x="0.0" y="81.0" />
@@ -1433,13 +1445,13 @@
             <edge source="biblioteca.util.Validator" target="biblioteca.model.Carte">
               <point x="0.0" y="-58.5" />
               <point x="224.25" y="389.0" />
-              <point x="347.12896825396837" y="389.0" />
+              <point x="347.1289682539683" y="389.0" />
               <point x="-19.75" y="169.5" />
             </edge>
             <edge source="biblioteca.repository.repoInterfaces.CartiRepoInterface" target="biblioteca.model.Carte">
               <point x="0.0" y="-81.0" />
               <point x="502.75" y="389.0" />
-              <point x="386.62896825396837" y="389.0" />
+              <point x="386.6289682539683" y="389.0" />
               <point x="19.75" y="169.5" />
             </edge>
             <edge source="biblioteca.view.Consola" target="biblioteca.control.BibliotecaCtrl">
@@ -1449,18 +1461,18 @@
               <point x="-38.5" y="104.0" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.view.Consola">
-              <point x="-42.25000000000006" y="-25.5" />
+              <point x="-42.25" y="-25.5" />
               <point x="297.5" y="1128.0" />
               <point x="196.5" y="1128.0" />
               <point x="65.5" y="114.5" />
             </edge>
             <edge source="biblioteca.repository.repoMock.CartiRepoMock" target="biblioteca.model.Carte">
-              <point x="0.0" y="-92.5" />
-              <point x="995.25" y="601.0" />
-              <point x="1027.9107142857142" y="601.0" />
-              <point x="1027.9107142857142" y="369.0" />
-              <point x="465.62896825396837" y="369.0" />
-              <point x="98.75" y="169.5" />
+              <point x="102.66666666666674" y="-92.5" />
+              <point x="1097.9166666666667" y="601.0" />
+              <point x="1038.9107142857142" y="601.0" />
+              <point x="1038.9107142857142" y="359.0" />
+              <point x="505.1289682539683" y="359.0" />
+              <point x="138.25" y="169.5" />
             </edge>
             <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.util.Validator">
               <point x="-38.5" y="-104.0" />
@@ -1469,23 +1481,23 @@
               <point x="0.0" y="58.5" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.control.BibliotecaCtrl">
-              <point x="14.083333333333258" y="-25.5" />
-              <point x="353.8333333333333" y="1138.0" />
-              <point x="345.25" y="1138.0" />
-              <point x="345.25" y="854.0" />
-              <point x="372.30753968253975" y="854.0" />
-              <point x="115.5" y="104.0" />
+              <point x="-14.083333333333371" y="-25.5" />
+              <point x="325.66666666666663" y="1138.0" />
+              <point x="314.91071428571433" y="1138.0" />
+              <point x="314.91071428571433" y="854.0" />
+              <point x="295.30753968253975" y="854.0" />
+              <point x="38.5" y="104.0" />
             </edge>
             <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
               <point x="38.5" y="-104.0" />
               <point x="295.30753968253975" y="591.0" />
-              <point x="379.54999999999995" y="591.0" />
+              <point x="379.55" y="591.0" />
               <point x="-123.19999999999999" y="81.0" />
             </edge>
             <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.model.Carte">
-              <point x="77.00000000000003" y="-104.0" />
+              <point x="77.0" y="-104.0" />
               <point x="744.25" y="379.0" />
-              <point x="426.12896825396837" y="379.0" />
+              <point x="426.1289682539683" y="379.0" />
               <point x="59.25" y="169.5" />
             </edge>
             <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
@@ -1505,7 +1517,7 @@
               <point x="141.30753968253975" y="601.0" />
               <point x="109.25" y="601.0" />
               <point x="109.25" y="379.0" />
-              <point x="307.62896825396837" y="379.0" />
+              <point x="307.6289682539683" y="379.0" />
               <point x="-59.25" y="169.5" />
             </edge>
           </edges>
