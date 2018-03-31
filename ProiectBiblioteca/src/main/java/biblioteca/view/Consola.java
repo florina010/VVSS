@@ -68,10 +68,10 @@ public class Consola {
 			c.setTitlu(console.readLine());
 			
 			String line;
-			do{
+//			do{
 				System.out.println("An aparitie:");
 				line=console.readLine();
-			}while(!line.matches("[10-9]+"));
+//			}while(!line.matches("[10-9]+"));
 			c.setAnAparitie(line);
 			
 			do{

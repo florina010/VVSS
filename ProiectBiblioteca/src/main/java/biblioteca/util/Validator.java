@@ -18,7 +18,7 @@ public class Validator {
 		if(c.getReferenti()==null){
 			throw new Exception("Lista autori vida!");
 		}
-		if(!isOKString(c.getTitlu()))
+		if((!isOKString(c.getTitlu())) || (c.getTitlu().length() < 3) )
 			throw new Exception("Titlu invalid!");
 		for(String s:c.getReferenti()){
 			if(!isOKString(s))
@@ -28,8 +28,8 @@ public class Validator {
 			if(!isOKString(s))
 				throw new Exception("Cuvant cheie invalid!");
 		}
-		if(!Validator.isNumber(c.getAnAparitie()))
-			throw new Exception("Editura invalid!");
+		if((!Validator.isNumber(c.getAnAparitie())) || (Integer.parseInt(c.getAnAparitie()) < 1800) || !isNumeric(c.getAnAparitie()) )
+			throw new Exception("An invalid!");
 	}
 	
 	public static boolean isNumber(String s){
@@ -47,6 +47,15 @@ public class Validator {
 			return false;
 		}
 		return s.matches("[a-zA-Z]+");
+	}
+
+	public static boolean isNumeric(String str) {
+		if (str == null)
+			return false;
+		for (char c : str.toCharArray())
+			if (c < '0' || c > '9')
+				return false;
+		return true;
 	}
 	
 }

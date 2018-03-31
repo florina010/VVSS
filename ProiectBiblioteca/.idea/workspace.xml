@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/biblioteca/Tests.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/model/Carte.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/model/Carte.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock$1.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/util/Validator.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/util/Validator.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/view/Consola.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/view/Consola.class" />
+      <change beforePath="$PROJECT_DIR$/../Start.uml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,142 +32,11 @@
       <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="196">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/biblioteca.begin.Start" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/biblioteca.begin.Start">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>biblioteca.begin.Start</OriginalElement>
-              <nodes>
-                <node x="208.87896825396834" y="0.0">biblioteca.model.Carte</node>
-                <node x="841.25" y="632.5">biblioteca.repository.repoMock.CartiRepoMock</node>
-                <node x="102.80753968253975" y="621.0">biblioteca.control.BibliotecaCtrl</node>
-                <node x="119.75" y="431.5">biblioteca.util.Validator</node>
-                <node x="348.75" y="409.0">biblioteca.repository.repoInterfaces.CartiRepoInterface</node>
-                <node x="255.25000000000003" y="1158.0">biblioteca.begin.Start</node>
-                <node x="513.25" y="621.0">biblioteca.repository.repo.CartiRepo</node>
-                <node x="0.0" y="879.0">biblioteca.view.Consola</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoMock.CartiRepoMock">
-                  <point x="70.41666666666663" y="-25.5" />
-                  <point x="410.16666666666663" y="1138.0" />
-                  <point x="995.25" y="1138.0" />
-                  <point x="0.0" y="92.5" />
-                </edge>
-                <edge source="biblioteca.view.Consola" target="biblioteca.model.Carte">
-                  <point x="-98.25" y="-114.5" />
-                  <point x="32.75" y="854.0" />
-                  <point x="68.43253968253975" y="854.0" />
-                  <point x="68.43253968253975" y="359.0" />
-                  <point x="228.62896825396834" y="359.0" />
-                  <point x="-138.25" y="169.5" />
-                </edge>
-                <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="42.25" y="-25.5" />
-                  <point x="382.0" y="1128.0" />
-                  <point x="502.75" y="1128.0" />
-                  <point x="0.0" y="81.0" />
-                </edge>
-                <edge source="biblioteca.util.Validator" target="biblioteca.model.Carte">
-                  <point x="0.0" y="-58.5" />
-                  <point x="224.25" y="389.0" />
-                  <point x="347.1289682539683" y="389.0" />
-                  <point x="-19.75" y="169.5" />
-                </edge>
-                <edge source="biblioteca.repository.repoInterfaces.CartiRepoInterface" target="biblioteca.model.Carte">
-                  <point x="0.0" y="-81.0" />
-                  <point x="502.75" y="389.0" />
-                  <point x="386.6289682539683" y="389.0" />
-                  <point x="19.75" y="169.5" />
-                </edge>
-                <edge source="biblioteca.view.Consola" target="biblioteca.control.BibliotecaCtrl">
-                  <point x="98.25" y="-114.5" />
-                  <point x="229.25" y="854.0" />
-                  <point x="218.30753968253975" y="854.0" />
-                  <point x="-38.5" y="104.0" />
-                </edge>
-                <edge source="biblioteca.begin.Start" target="biblioteca.view.Consola">
-                  <point x="-42.25" y="-25.5" />
-                  <point x="297.5" y="1128.0" />
-                  <point x="196.5" y="1128.0" />
-                  <point x="65.5" y="114.5" />
-                </edge>
-                <edge source="biblioteca.repository.repoMock.CartiRepoMock" target="biblioteca.model.Carte">
-                  <point x="102.66666666666674" y="-92.5" />
-                  <point x="1097.9166666666667" y="601.0" />
-                  <point x="1038.9107142857142" y="601.0" />
-                  <point x="1038.9107142857142" y="359.0" />
-                  <point x="505.1289682539683" y="359.0" />
-                  <point x="138.25" y="169.5" />
-                </edge>
-                <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.util.Validator">
-                  <point x="-38.5" y="-104.0" />
-                  <point x="218.30753968253975" y="601.0" />
-                  <point x="224.25" y="601.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="biblioteca.begin.Start" target="biblioteca.control.BibliotecaCtrl">
-                  <point x="-14.083333333333371" y="-25.5" />
-                  <point x="325.66666666666663" y="1138.0" />
-                  <point x="314.91071428571433" y="1138.0" />
-                  <point x="314.91071428571433" y="854.0" />
-                  <point x="295.30753968253975" y="854.0" />
-                  <point x="38.5" y="104.0" />
-                </edge>
-                <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="38.5" y="-104.0" />
-                  <point x="295.30753968253975" y="591.0" />
-                  <point x="379.55" y="591.0" />
-                  <point x="-123.19999999999999" y="81.0" />
-                </edge>
-                <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.model.Carte">
-                  <point x="77.0" y="-104.0" />
-                  <point x="744.25" y="379.0" />
-                  <point x="426.1289682539683" y="379.0" />
-                  <point x="59.25" y="169.5" />
-                </edge>
-                <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="-77.0" y="-104.0" />
-                  <point x="590.25" y="601.0" />
-                  <point x="564.35" y="601.0" />
-                  <point x="61.60000000000002" y="81.0" />
-                </edge>
-                <edge source="biblioteca.repository.repoMock.CartiRepoMock" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="-102.66666666666674" y="-92.5" />
-                  <point x="892.5833333333333" y="601.0" />
-                  <point x="625.95" y="601.0" />
-                  <point x="123.20000000000005" y="81.0" />
-                </edge>
-                <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.model.Carte">
-                  <point x="-115.5" y="-104.0" />
-                  <point x="141.30753968253975" y="601.0" />
-                  <point x="109.25" y="601.0" />
-                  <point x="109.25" y="379.0" />
-                  <point x="307.6289682539683" y="379.0" />
-                  <point x="-59.25" y="169.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="487.9999999999999" y="628.8571428571428" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -161,11 +44,9 @@
       <file leaf-file-name="BibliotecaCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="212">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,45 +54,17 @@
       <file leaf-file-name="Carte.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+            <state relative-caret-position="237">
+              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartiRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartiRepoInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProiectBiblioteca.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProiectBiblioteca.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -219,10 +72,25 @@
       <file leaf-file-name="CartiRepoMock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="346">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/biblioteca/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1184">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <element signature="e#405#413#0" expanded="true" />
+                <element signature="e#457#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,18 +99,18 @@
       <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consola.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java">
+      <file leaf-file-name="CartiRepoInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,7 +118,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Consola.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -270,16 +155,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" />
-        <option value="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java" />
-        <option value="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" />
+        <option value="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/biblioteca/Tests.java" />
       </list>
     </option>
   </component>
@@ -298,7 +184,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProiectBiblioteca" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -324,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -457,6 +349,14 @@
             <path>
               <item name="ProiectBiblioteca" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProiectBiblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectBiblioteca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectBiblioteca" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -467,10 +367,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,7 +379,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Start.uml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -503,7 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -545,6 +444,84 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <module name="ProiectBiblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.Tests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Tests.addCarteAllValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <module name="ProiectBiblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.Tests" />
+      <option name="METHOD_NAME" value="addCarteAllValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Tests.addCarteTitleInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <module name="ProiectBiblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="biblioteca.Tests" />
+      <option name="METHOD_NAME" value="addCarteTitleInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -637,15 +614,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.Start" />
       <item index="1" class="java.lang.String" itemvalue="Application.Start" />
       <item index="2" class="java.lang.String" itemvalue="JAR Application.ProiectBiblioteca-1.0-SNAPSHOT.jar" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Tests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Tests.addCarteTitleInvalid" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Tests.addCarteAllValid" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Start" />
-        <item index="1" class="java.lang.String" itemvalue="JAR Application.ProiectBiblioteca-1.0-SNAPSHOT.jar" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Tests.addCarteAllValid" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Start" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Tests.addCarteTitleInvalid" />
+        <item index="4" class="java.lang.String" itemvalue="JAR Application.ProiectBiblioteca-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -672,7 +655,10 @@
       <workItem from="1520962889601" duration="3437000" />
       <workItem from="1521446306077" duration="985000" />
       <workItem from="1521447928236" duration="11000" />
-      <workItem from="1521448209076" duration="1444000" />
+      <workItem from="1521448209076" duration="2149000" />
+      <workItem from="1522165979383" duration="4144000" />
+      <workItem from="1522430557847" duration="369000" />
+      <workItem from="1522489654122" duration="10987000" />
     </task>
     <task id="LOCAL-00001" summary="diagram">
       <created>1521449660052</created>
@@ -681,11 +667,50 @@
       <option name="project" value="LOCAL" />
       <updated>1521449660052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="diagram">
+      <created>1521449672032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521449672032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Tests - 2018.03.31 at 15h 21m 51s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 22m 38s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 22m 44s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 23m 29s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 24m 38s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 25m 08s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 25m 19s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 25m 47s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 26m 12s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.03.31 at 15h 55m 23s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19416000" />
+    <option name="totallyTimeSpent" value="35621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,29 +723,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21195652" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045255475" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.044565216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33238637" sideWeight="0.5025094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.069296375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10978261" sideWeight="0.49749058" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29891303" sideWeight="0.49749058" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21002132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14565217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,112 +765,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="diagram" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProiectBiblioteca.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="97" column="5" lean-forward="false" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -857,6 +787,12 @@
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,7 +838,7 @@
         <state relative-caret-position="273">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,6 +849,8 @@
           <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,7 +870,7 @@
         <state relative-caret-position="504">
           <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,6 +881,12 @@
           <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -971,6 +915,8 @@
           <caret line="83" column="37" lean-forward="false" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,7 +1060,7 @@
         <state relative-caret-position="168">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1142,7 +1088,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1153,6 +1099,12 @@
           <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1173,6 +1125,8 @@
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1218,7 +1172,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1256,14 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1327,117 +1273,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/biblioteca.begin.Start">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>biblioteca.begin.Start</OriginalElement>
           <nodes>
-            <node x="208.87896825396834" y="0.0">biblioteca.model.Carte</node>
+            <node x="208.87896825396837" y="0.0">biblioteca.model.Carte</node>
             <node x="841.25" y="632.5">biblioteca.repository.repoMock.CartiRepoMock</node>
             <node x="102.80753968253975" y="621.0">biblioteca.control.BibliotecaCtrl</node>
             <node x="119.75" y="431.5">biblioteca.util.Validator</node>
             <node x="348.75" y="409.0">biblioteca.repository.repoInterfaces.CartiRepoInterface</node>
-            <node x="255.25000000000003" y="1158.0">biblioteca.begin.Start</node>
+            <node x="255.25000000000006" y="1158.0">biblioteca.begin.Start</node>
             <node x="513.25" y="621.0">biblioteca.repository.repo.CartiRepo</node>
             <node x="0.0" y="879.0">biblioteca.view.Consola</node>
           </nodes>
           <notes />
           <edges>
             <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoMock.CartiRepoMock">
-              <point x="70.41666666666663" y="-25.5" />
+              <point x="70.41666666666657" y="-25.5" />
               <point x="410.16666666666663" y="1138.0" />
               <point x="995.25" y="1138.0" />
               <point x="0.0" y="92.5" />
             </edge>
             <edge source="biblioteca.view.Consola" target="biblioteca.model.Carte">
-              <point x="-98.25" y="-114.5" />
-              <point x="32.75" y="854.0" />
-              <point x="68.43253968253975" y="854.0" />
-              <point x="68.43253968253975" y="359.0" />
-              <point x="228.62896825396834" y="359.0" />
-              <point x="-138.25" y="169.5" />
+              <point x="-32.75" y="-114.5" />
+              <point x="98.25" y="854.0" />
+              <point x="79.43253968253975" y="854.0" />
+              <point x="79.43253968253975" y="369.0" />
+              <point x="268.12896825396837" y="369.0" />
+              <point x="-98.75" y="169.5" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
-              <point x="42.25" y="-25.5" />
+              <point x="42.24999999999994" y="-25.5" />
               <point x="382.0" y="1128.0" />
               <point x="502.75" y="1128.0" />
               <point x="0.0" y="81.0" />
@@ -1445,13 +1313,13 @@
             <edge source="biblioteca.util.Validator" target="biblioteca.model.Carte">
               <point x="0.0" y="-58.5" />
               <point x="224.25" y="389.0" />
-              <point x="347.1289682539683" y="389.0" />
+              <point x="347.12896825396837" y="389.0" />
               <point x="-19.75" y="169.5" />
             </edge>
             <edge source="biblioteca.repository.repoInterfaces.CartiRepoInterface" target="biblioteca.model.Carte">
               <point x="0.0" y="-81.0" />
               <point x="502.75" y="389.0" />
-              <point x="386.6289682539683" y="389.0" />
+              <point x="386.62896825396837" y="389.0" />
               <point x="19.75" y="169.5" />
             </edge>
             <edge source="biblioteca.view.Consola" target="biblioteca.control.BibliotecaCtrl">
@@ -1461,18 +1329,18 @@
               <point x="-38.5" y="104.0" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.view.Consola">
-              <point x="-42.25" y="-25.5" />
+              <point x="-42.25000000000006" y="-25.5" />
               <point x="297.5" y="1128.0" />
               <point x="196.5" y="1128.0" />
               <point x="65.5" y="114.5" />
             </edge>
             <edge source="biblioteca.repository.repoMock.CartiRepoMock" target="biblioteca.model.Carte">
-              <point x="102.66666666666674" y="-92.5" />
-              <point x="1097.9166666666667" y="601.0" />
-              <point x="1038.9107142857142" y="601.0" />
-              <point x="1038.9107142857142" y="359.0" />
-              <point x="505.1289682539683" y="359.0" />
-              <point x="138.25" y="169.5" />
+              <point x="0.0" y="-92.5" />
+              <point x="995.25" y="601.0" />
+              <point x="1027.9107142857142" y="601.0" />
+              <point x="1027.9107142857142" y="369.0" />
+              <point x="465.62896825396837" y="369.0" />
+              <point x="98.75" y="169.5" />
             </edge>
             <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.util.Validator">
               <point x="-38.5" y="-104.0" />
@@ -1481,23 +1349,23 @@
               <point x="0.0" y="58.5" />
             </edge>
             <edge source="biblioteca.begin.Start" target="biblioteca.control.BibliotecaCtrl">
-              <point x="-14.083333333333371" y="-25.5" />
-              <point x="325.66666666666663" y="1138.0" />
-              <point x="314.91071428571433" y="1138.0" />
-              <point x="314.91071428571433" y="854.0" />
-              <point x="295.30753968253975" y="854.0" />
-              <point x="38.5" y="104.0" />
+              <point x="14.083333333333258" y="-25.5" />
+              <point x="353.8333333333333" y="1138.0" />
+              <point x="345.25" y="1138.0" />
+              <point x="345.25" y="854.0" />
+              <point x="372.30753968253975" y="854.0" />
+              <point x="115.5" y="104.0" />
             </edge>
             <edge source="biblioteca.control.BibliotecaCtrl" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
               <point x="38.5" y="-104.0" />
               <point x="295.30753968253975" y="591.0" />
-              <point x="379.55" y="591.0" />
+              <point x="379.54999999999995" y="591.0" />
               <point x="-123.19999999999999" y="81.0" />
             </edge>
             <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.model.Carte">
-              <point x="77.0" y="-104.0" />
+              <point x="77.00000000000003" y="-104.0" />
               <point x="744.25" y="379.0" />
-              <point x="426.1289682539683" y="379.0" />
+              <point x="426.12896825396837" y="379.0" />
               <point x="59.25" y="169.5" />
             </edge>
             <edge source="biblioteca.repository.repo.CartiRepo" target="biblioteca.repository.repoInterfaces.CartiRepoInterface">
@@ -1517,20 +1385,196 @@
               <point x="141.30753968253975" y="601.0" />
               <point x="109.25" y="601.0" />
               <point x="109.25" y="379.0" />
-              <point x="307.6289682539683" y="379.0" />
+              <point x="307.62896825396837" y="379.0" />
               <point x="-59.25" y="169.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="487.9999999999999" y="628.8571428571428" />
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-64.0" y="424.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
-            <Category>Methods</Category>
             <Category>Properties</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Start.uml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repo/CartiRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/Failure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+            <element signature="e#4476#4477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/begin/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/control/BibliotecaCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/biblioteca/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1184">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#405#413#0" expanded="true" />
+            <element signature="e#457#465#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
