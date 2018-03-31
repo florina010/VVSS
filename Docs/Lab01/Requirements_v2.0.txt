@@ -1,0 +1,15 @@
+﻿VVSS, Proiect 1. Biblioteca Informatică – Română, 2017-2018/II, S01S12 
+www.cs.ubbcluj.ro/~cretu  1 
+Cerinţe 
+ 
+Proiectaţi şi implementaţi o aplicaţie Java pentru rezolvarea problemei propuse. Se va evidenţia o arhitectură stratificată. Informaţiile vor fi preluate din fişiere text. Formatul datelor din fisierul text este urmatorul: pe fiecare rand este prezentata cate o carte, avand urmatorul format: 
+1;'carte';autor1, autor2;2000;editura;cuv1, cuv2 
+ 
+1. Evidenţa cărţilor dintr-o bibliotecă  O biblioteca doreste dezvoltarea unui program pentru gestiunea cartilor existente. Programul va avea urmatoarele functionalitati: 
+i. adaugarea unei noi carti (id, titlu, autori, an aparitie, editura, cuvinte cheie); 
+ii. cautarea cartilor scrise de un anumit autor (sau parti din numele autorului); 
+iii. afisarea cartilor din biblioteca care au aparut intr-un anumit an, ordonate alfabetic dupa titlu si autori.
+iv. cautarea cartilor dupa cuvinte cheie (sau parti din cuvintele cheie)
+v. stergerea cartilor 
+vi. afisarea tuturor cartilor
+vii. editarea detaliitor cartilor

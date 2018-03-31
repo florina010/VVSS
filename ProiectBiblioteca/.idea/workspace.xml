@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/biblioteca/Tests.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/model/Carte.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/util/Validator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" afterPath="$PROJECT_DIR$/src/main/java/biblioteca/view/Consola.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/model/Carte.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/model/Carte.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoInterfaces/CartiRepoInterface.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock$1.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/repository/repoMock/CartiRepoMock.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/util/Validator.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/util/Validator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/biblioteca/view/Consola.class" afterPath="$PROJECT_DIR$/target/classes/biblioteca/view/Consola.class" />
-      <change beforePath="$PROJECT_DIR$/../Start.uml" afterPath="" />
-    </list>
+    <list default="true" readonly="true" id="1223b478-c44d-49e7-a295-ae50cbf8dcfc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -658,7 +642,7 @@
       <workItem from="1521448209076" duration="2149000" />
       <workItem from="1522165979383" duration="4144000" />
       <workItem from="1522430557847" duration="369000" />
-      <workItem from="1522489654122" duration="10987000" />
+      <workItem from="1522489654122" duration="11040000" />
     </task>
     <task id="LOCAL-00001" summary="diagram">
       <created>1521449660052</created>
@@ -674,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521449672032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests done">
+      <created>1522501664344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522501664344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -710,7 +701,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35621000" />
+    <option name="totallyTimeSpent" value="35674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,7 +753,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="diagram" />
+    <MESSAGE value="tests done" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
