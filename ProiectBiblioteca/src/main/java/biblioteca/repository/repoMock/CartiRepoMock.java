@@ -83,7 +83,7 @@ public class CartiRepoMock implements CartiRepoInterface {
         List<Carte> lc = getCarti();
         List<Carte> lca = new ArrayList<Carte>();
         for (Carte c : lc) {
-            if (c.getAnAparitie().equals(an) == true) {
+            if (c.getAnAparitie().equals(an) == true && Integer.parseInt(an) > 1800) {
                 lca.add(c);
             }
         }
